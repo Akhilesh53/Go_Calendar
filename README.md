@@ -95,7 +95,7 @@ Get your Token from **BOTFATHER** on Telegram
   
     A helper function of CreateCalender() to generate calendar Interface
 
-12) **CalendarAction(update tgbotapi.Update, Bot *tgbotapi.BotAPI)**
+12) **CalendarAction(update tgbotapi.Update, Bot * tgbotapi.BotAPI)**
     
     This function is to perform actions on the Calendar Interface
 
@@ -105,9 +105,8 @@ Get your Token from **BOTFATHER** on Telegram
     
 # WORKING
 
-**NOTE : ** 1) Saturday and Sunday are connsidered to be as invalid (Change accordingly)
-            2) Any date selected after today is invalid.
-            
+**NOTE:**   1) Saturday and Sunday are connsidered to be as invalid (Change accordingly)
+            2) Any date selected after today is invalid
             In both the the cases a new calender will be created for current month and year
 
 Send **/Calendar** message with two params year and month to generate the calendar for that year and month
