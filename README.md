@@ -12,29 +12,31 @@ Get your Token from **BOTFATHER** on Telegram
 **STEPS TO BE FOLLOWED FOR THIS PROJECT SETUP**
 =======================================================
 
-STEP 1 : Create a new Folder in your PC
-STEP 2 : Clone the repository from the link below.
+**STEP 1** : Create a new Folder in your PC
+**STEP 2** : Clone the repository from the link below.
          If you dont have GO setup already in your PC
          Download GO
 
-STEP 3 : Clone the Repo from the Link
-STEP 4 : Run Go mod init - to setup workspace (necessary if you are creating your own files)
-STEP 5 : Run Go mod tidy
-STEP 6 : Run Go mod vendor - (run at last to have all the necessary libraries)
+**STEP 3** : Clone the Repo from the Link
+**STEP 4** : Run Go mod init - to setup workspace (necessary if you are creating your own files)
+**STEP 5** : Run Go mod tidy
+**STEP 6** : Run Go mod vendor - (run at last to have all the necessary libraries)
 
-STEP 7 : Write / Modify the Code
+**STEP 7** : Write / Modify the Code
 
-STEP 8 : Create new branch with your name.
+**STEP 8** : Create new branch with your name.
 
             git branch <your_name>
             git checkout <your_name>
 
-STEP 9 : Stage your changes and Commit
-         git add <File.go>
-         git commit -m "<your commit message>"
+**STEP 9** : Stage your changes and Commit
+         
+            git add <File.go>
+            git commit -m "<your commit message>"
 
-STEP 10 : Push the code
-          git.push
+**STEP 10** : Push the code
+             
+             git.push
           
           
 # FUNCTIONS
