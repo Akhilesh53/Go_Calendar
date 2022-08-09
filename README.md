@@ -46,6 +46,7 @@ Get your Token from **BOTFATHER** on Telegram
    This function creates a callback string for inline buttons
 
    Params :
+   
    action : Action that Calendar will perform
             a) IGNORE - Donot perform any action
             b) DAY - Date button (1-31) is pressed
@@ -105,15 +106,22 @@ Get your Token from **BOTFATHER** on Telegram
     
 # WORKING
 
-**NOTE:**   1) Saturday and Sunday are connsidered to be as invalid (Change accordingly)
-            2) Any date selected after today is invalid
+**NOTE:**   1) Saturday and Sunday are connsidered to be as invalid (Change accordingly).
+
+            2) Any date selected after today is invalid.
+            
             In both the the cases a new calender will be created for current month and year
 
 Send **/Calendar** message with two params year and month to generate the calendar for that year and month
-If the action specified is  IGNORE - Nothing will be performed
-                            DAY - A date is selected ( When we press a date, DAY Action is performed)
-                            PREV_MONTH - Generate calender for previous month ( When we press on **<**)
-                            NEXT_MONTH - Generate calender for next month (When we press on **>**)
+
+If the action specified is  IGNORE - Nothing will be performed.
+
+                            DAY - A date is selected ( When we press a date, DAY Action is performed).
+                            
+                            PREV_MONTH - Generate calender for previous month ( When we press on **<**).
+                            
+                            NEXT_MONTH - Generate calender for next month (When we press on **>**).
+                            
 
 # RESULTS
 
